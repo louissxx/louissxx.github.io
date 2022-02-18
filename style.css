@@ -1,0 +1,199 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Search Bar*/
+
+.search input[type="text"] {
+  width: 300px;
+  height: 25px;
+  border-radius: 25px;
+  border: none;
+  padding-left: 10px;
+}
+
+.search {
+  margin-left: 10px;
+  margin-right: 790px;
+}
+
+/*NAV-BAR*/
+.nav-list li {
+  margin-right: 15px;
+}
+
+/*Login*/
+.nav-background {
+  margin-right: 1px;
+}
+
+.login {
+  margin-right: 8px;
+}
+
+/*NAV BAR STYLING*/
+header {
+  display: flex;
+  align-items: center;
+  background-color: #66c293;
+}
+
+/*NAV BAR LINKS*/
+.nav-list li {
+  display: inline;
+}
+.logo {
+  margin-left: 8px;
+  margin-top: 4px;
+}
+
+a:link {
+  color: #e8506e;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e8506e;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fdee5c;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #64b98f;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/*INTRO PAGE*/
+
+.home {
+  background-image: url("/images/mehmet-turgut-kirkgoz-CLxxr51_qGE-unsplash.jpg");
+  background-color: #dee3b1;
+  height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  color: antiquewhite;
+  text-align: center;
+  margin-top: -25px;
+}
+
+/*OUT OF TIME BREAK*/
+.break-1 {
+  background-color: #66c293;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #491722;
+  margin-bottom: 50px;
+}
+/*BODY*/
+body {
+  background-color: #dee3b1;
+}
+
+/*FEATURES*/
+
+.features .grid {
+  display: grid;
+  grid-template-columns: 390px 390px 390px;
+  grid-template-rows: 212.5px 212.5px;
+  gap: 15px 15px;
+  grid-template-areas:
+    ". . ."
+    ". . .";
+  justify-content: center;
+}
+/*PUTTING IMG AND HEADING ON SAME LINE*/
+.grid-item-track img,
+.grid-item-track h4,
+.grid-item-write img,
+.grid-item-write h4,
+.grid-item-playlists img,
+.grid-item-playlists h4,
+.grid-item-like img,
+.grid-item-like h4,
+.grid-item-explore img,
+.grid-item-explore h4,
+.grid-item-person img,
+.grid-item-person h4,
+.grid-item-waffle img,
+.grid-item-waffle h4,
+.grid-item-max img,
+.grid-item-max h4,
+.grid-item-dippy img,
+.grid-item-dippy h4 {
+  display: inline;
+}
+
+/*Reviews*/
+.reviews .grid {
+  display: grid;
+  grid-template-columns: 390px 390px 390px;
+  grid-template-rows: 212.5px;
+  gap: 15px 15px;
+  grid-template-areas: ". . .";
+  justify-content: center;
+}
+
+.grid-item-dippy,
+.grid-item-person,
+.grid-item-playlists {
+  background-color: #fdee67;
+  border-radius: 25px;
+  box-shadow: 10px 10px #eb5073;
+}
+
+.grid img {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.grid p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.grid-item-max,
+.grid-item-explore,
+.grid-item-write {
+  background-color: #eb5073;
+  border-radius: 25px;
+  box-shadow: 10px 10px #68c8d5;
+}
+
+.grid-item-waffle,
+.grid-item-like,
+.grid-item-track {
+  background-color: #68c8d5;
+  border-radius: 25px;
+  box-shadow: 10px 10px #fdee67;
+}
+
+/*Pricing*/
+.pricing .grid {
+  display: grid;
+  grid-auto-columns: 300px;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 390px 390px;
+  grid-template-rows: 212.5px;
+  gap: 15px 15px;
+  grid-template-areas: ". .";
+  background-image: url(/images/coin-gf15398faa_1920.jpg);
+  justify-content: center;
+}
+
+.reviews .grid img {
+  border-radius: 50%;
+}
+
+@media (max-width: 786) {
+}
