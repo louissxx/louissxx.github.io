@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/proxy')
+fetch('https://onephoto.infinityfreeapp.com/')
   .then(response => response.text())
   .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
